@@ -10,9 +10,9 @@ This is a [multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-p
 
 SGX implementation is coming soon.
 
-## Instructions
+## WARNING
 
-Instructions for a planned ceremony will be posted when everything is tested and finalized.
+It's highly experimental implementation, that follows the original approach of "powers of tau", but was not battle-tested or analyzed for security.
 
 ## Recommendations from original ceremony
 
