@@ -1,0 +1,31 @@
+[package]
+name = "alpha_line"
+version = "0.0.1"
+authors = ["Alex Vlasov"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+description = "MPC for SONIC proof system"
+homepage = "https://github.com/matterinc/alpha_line"
+repository = "https://github.com/matterinc/alpha_line"
+
+[dependencies]
+rand = "0.4"
+crossbeam = "0.7.0"
+num_cpus = "1.7.0"
+blake2 = "0.6.1"
+generic-array = "0.8.3"
+typenum = "1.9.0"
+byteorder = "1.1.0"
+hex-literal = "0.1"
+rust-crypto = "0.2"
+
+memmap = "0.7.0"
+itertools = "0.8.0"
+#indicatif = "0.11"
+
+ff = { git = 'https://github.com/matterinc/ff', features = ["derive"] }
+pairing = { git = 'https://github.com/matterinc/pairing', features = ["expose-arith"] }
+
+[features]
+
